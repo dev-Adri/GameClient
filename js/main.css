@@ -1,0 +1,123 @@
+body {
+    background-image: url("../assets/vortex.jpg");
+    background-attachment: fixed;
+    background-repeat: repeat;
+}
+
+#loginbox {
+    position: absolute;
+    background-color: black;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 30%;
+    opacity: 0.6;
+    z-index: -1;
+}
+
+#username {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    top: 25%;
+    left: 2.4%;
+    width: 25%;
+    outline: none;
+}
+
+#password {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    top: 37%;
+    left: 2.4%;
+    width: 25%;
+    outline: none;
+}
+
+#exitb {
+    background-color: transparent;
+    color: white;
+    font-size: 50px;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    top: 0%;
+    left: 95.8%;
+    border: none;
+}
+
+#minimizeb {
+    background-color: transparent;
+    color: white;
+    font-size: 50px;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    top: -1.6%;
+    left: 91%;
+    border: none;
+}
+
+#noaccount {
+    position: absolute;
+    border: none;
+    background-color: transparent;
+    color: white;
+    text-decoration: underline;
+    top: 74%;
+    left: 1%;
+    outline: none;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+#forgotname {
+    position: absolute;
+    border: none;
+    background-color: transparent;
+    color: white;
+    text-decoration: underline;
+    top: 78%;
+    left: 1%;
+    outline: none;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+#forgotpass {
+    position: absolute;
+    border: none;
+    background-color: transparent;
+    color: white;
+    text-decoration: underline;
+    top: 82%;
+    left: 1%;
+    outline: none;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+#login {
+    position: absolute;
+    background-color: black;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    opacity: 0.5;
+    width: 25%;
+    height: 50px;
+    font-size: 30px;
+    left: 2.4%;
+    top: 52%;
+    outline: none;
+    cursor: pointer;
+}
